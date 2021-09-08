@@ -1,0 +1,65 @@
+body{
+    background-image: url(360_F_375940704_WxGwJzcFhgDbbcAsR1Oz4i5zYN8K0B3M.jpg);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+section{
+    background-color: orangered;
+    border: orangered solid 5px;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+margin: 100px auto 0 auto;
+    transition: all 2s;
+}
+
+.h{
+position: relative;
+text-align: center;
+top: 200px;
+display: none;
+}
+
+section:hover .h{
+    display: block;
+}
+
+
+.m{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    display: none;
+}
+
+
+section:hover .m{
+    display: block;
+}
+
+
+
+
+
+
+img{
+    width: 300px;
+    height: 250px;
+    top: -50px;
+    left: 50px;
+    position: absolute;
+}
+
+
+img:hover{
+    border-radius: 50%;
+    top: -100px;
+    transition: all 2s;
+}

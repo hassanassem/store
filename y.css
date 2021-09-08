@@ -1,0 +1,25 @@
+body{
+    color: orangered;
+    background-image: url(360_F_375940704_WxGwJzcFhgDbbcAsR1Oz4i5zYN8K0B3M.jpg);
+}
+
+
+form{
+    position: relative;
+    width: 400px;  
+    min-height: 400px;
+
+border: orangered solid 5px;
+border-radius: 10px;
+justify-content: center;
+text-align: center;
+position: relative;
+align-items: center;
+left: 400px;
+top: 100px;
+font-size: 60px;
+}
+label{
+    font-size: 20px;
+    
+}
