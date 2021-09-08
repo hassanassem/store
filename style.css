@@ -1,0 +1,103 @@
+body{
+background-image:url(360_F_375940704_WxGwJzcFhgDbbcAsR1Oz4i5zYN8K0B3M.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+height: 750px;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
+
+img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    top: -20px;
+    transition: all 2s;
+}
+
+
+img:hover{
+    top: -100px;
+    border-radius: 50%;
+}
+
+
+
+
+
+section{
+    top: 150px;
+background-color: rgb(185, 65, 22);
+border-radius: 10px;
+height: 350px;
+width: 400px;
+margin: 100px auto 0 auto;
+position: relative;
+transition: all 2s;
+padding: 10px;
+bottom: 3S0px;
+}
+
+section:hover{
+    height: 300px;
+
+}
+
+
+
+
+
+.hassan{
+
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: none;
+}
+
+
+section:hover .hassan{
+    display: block;
+
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+.yara{
+position: absolute;
+bottom: 0px;
+text-align: center;
+display: none;
+}
+
+section:hover .yara{
+    display: block;
+}
+
+
+
+
+.h{
+    position: absolute ;
+    text-align: center;
+    bottom: 0;
+display: none;
+
+}
+
+section:hover .h{
+display: block;
+
+}
+
+
